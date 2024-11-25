@@ -1,0 +1,50 @@
+.taskwraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.taskheading {
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.taskbutton {
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f38375;
+    
+}
+
+.taskbutton:hover {
+    transition: 0.5s;
+    background-color: #fbc3bc;
+    
+}
+
+.inputfield{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .taskheading {
+        text-align: center;
+    }
+
+    .inputfield {
+        width: 100%;
+    }
+
+    .taskwraper {
+        padding: 0;
+    }
+
+}
